@@ -9,7 +9,7 @@
 }
 
 button{
-    border-radius: 10px;
+    border-radius: 20px;
     padding-inline: 10px;
     border-style: none;
     transition: 0.4s;
@@ -26,14 +26,7 @@ button:hover{
     color: #EEEEEE;
     transition: 0.4s;
 }
-.logo-color{
-    font-size: x-large;
-    font-weight: bold;
-}
 
-.logo-color:hover{
-    color: #EEEEEE;
-}
 
 .linkes:hover{
     background-color: #76ABAE;
