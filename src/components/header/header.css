@@ -32,7 +32,7 @@ button:hover{
 .linkes{
     color: #EEEEEE !important;
     border-radius: 5px;
-    transition: 0.4s;
+    transition: 0.5s !important;
 }
 
 .linkes:hover{
