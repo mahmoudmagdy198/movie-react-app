@@ -8,35 +8,34 @@
     background-color: #222831;
 }
 
+
 button{
-    border-radius: 10px;
+    border-radius: 10px  !important;
     padding-inline: 10px;
     border-style: none;
     transition: 0.4s;
 }
-
 button:hover{
-    
-    color: #000000;
+    border-radius: 10px ;
+    color: #000000 !important;
     background-color: #76ABAE;
 
 }
 
-.logo-color , .linkes{
-    color: #EEEEEE;
-    transition: 0.4s;
-}
+
 .logo-color{
     font-size: x-large;
     font-weight: bold;
+    color: #EEEEEE !important;
 }
 
-.logo-color:hover{
-    color: #EEEEEE;
+.linkes{
+    color: #EEEEEE !important;
+    border-radius: 5px;
 }
 
 .linkes:hover{
     background-color: #76ABAE;
-    color: #000000;
+    color: #000000 !important;
     border-radius: 5px;
 }
