@@ -24,7 +24,7 @@ button:hover{
 
 
 .logo-color{
-    font-size: x-large;
+    font-size: xx-large !important;
     font-weight: bold;
     color: #EEEEEE !important;
 }
