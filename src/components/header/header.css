@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-color{
+    background-color: #222831;
+}
+
+button{
+    border-radius: 10px;
+    padding-inline: 10px;
+    border-style: none;
+    transition: 0.4s;
+}
+
+button:hover{
+    
+    color: #000000;
+    background-color: #76ABAE;
+
+}
+
+.logo-color , .linkes{
+    color: #EEEEEE;
+    transition: 0.4s;
+}
+.logo-color{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.logo-color:hover{
+    color: #EEEEEE;
+}
+
+.linkes:hover{
+    background-color: #76ABAE;
+    color: #000000;
+    border-radius: 5px;
+}
