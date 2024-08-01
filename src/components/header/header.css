@@ -8,14 +8,18 @@
     background-color: #222831;
 }
 
+.drop-color{
+    background-color: #EEEEEE !important;
+    
+}
 
-button{
+.search{
     border-radius: 10px  !important;
     padding-inline: 10px;
     border-style: none;
     transition: 0.4s;
 }
-button:hover{
+.search:hover{
     border-radius: 10px ;
     color: #000000 !important;
     background-color: #76ABAE;
@@ -24,6 +28,7 @@ button:hover{
 
 
 .logo-color{
+    padding-right: 50px !important;
     font-size: xx-large !important;
     font-weight: bold;
     color: #EEEEEE !important;
