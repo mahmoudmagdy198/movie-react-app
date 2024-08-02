@@ -1,0 +1,32 @@
+ .home {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.836)) ,url(/src/media/background.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .App-header {
+    -webkit-backdrop-filter: blur(5px);
+    
+    color: #EEE;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50vh;
+    backdrop-filter: blur(1px);
+  }
+  
+  footer {
+    background-color: #222831;
+    color: #EEE;
+    text-align: center;
+   padding-top:12px ;
+  }

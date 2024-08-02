@@ -31,11 +31,13 @@ export default function Trending() {
 
   return (
     <>
+      
       <div class="row container m-auto top-movies">
+      <h1 class="fw-bolder m-4 text-center">Trending</h1>
         {data.map((e) => (
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-3">
-            <Card title={e.title} poster={e.poster_path} />
+            <Card title={e.title} poster={e.poster_path} id={e.id}/>
             </div>
          
         ))}
