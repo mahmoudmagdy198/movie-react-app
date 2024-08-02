@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css"
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg header-color">
+    <nav class="navbar navbar-expand-lg header-color position-fixed w-100 z-3">
     <div class="container">
       <a class="navbar-brand logo-color" href="#">Movie<span style={{color:"#76ABAE"}}>React</span></a>
       <button  class="drop-color navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
