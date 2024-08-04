@@ -8,14 +8,12 @@ import UpComing from './components/upcoming/UpComing';
 import Trending from './components/Trending/Trending';
 import Details from './components/details/Details';
 import SearchResults from './components/searchResults/SearchResults';
+import React from 'react';
 
 
-
+export const searchedNameContext = React.createContext()
 
 function App() {
-
-  
-  
 
   return (
     <div className="App">

@@ -39,10 +39,11 @@ function Details() {
           <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-6">
               <div class="white-box text-center">
-                <img
+                {data.poster_path != null ? (<img
                   src={`https://image.tmdb.org/t/p/w500/${data.poster_path}`}
                   class="img-responsive"
-                />
+                />) : (<img style={{width:"283px" , height:"425px"}} src="https://us.123rf.com/450wm/koblizeek/koblizeek2208/koblizeek220800027/189908666-no-image-vector-symbol-missing-available-icon-no-gallery-for-this-moment-placeholder.jpg" />)}
+                
               </div>
             </div>
             <div class="col-lg-7 col-md-7 col-sm-6">

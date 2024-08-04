@@ -1,15 +1,25 @@
-import React, { useRef } from "react";
+import React, { useRef , useContext} from "react";
 import "./header.css"
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { changeTitle } from "../../redux/features/searchMovieSlice";
 
-export let searchedMovie
+//export let searchedMovie
 function Header() {
-
+  
   const navigate = useNavigate()
+  const dispatch = useDispatch()
   let input = useRef(null)
   let search = () =>{
-    input.current.value && ((searchedMovie = input.current.value) && navigate("/searhResults"))
+    // input.current.value && ((searchedMovie = input.current.value) && navigate("/searhResults"))
+    // input.current.value = null
+    if (input.current.value) {
+      dispatch(changeTitle(input.current.value))
+      navigate("/searhResults")
+    }
+    
   }
+
   return (
     <nav class="navbar navbar-expand-lg header-color position-fixed w-100 z-3">
     <div class="container">
